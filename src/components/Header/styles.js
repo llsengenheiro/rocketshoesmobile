@@ -1,9 +1,8 @@
 import styled from 'styled-components/native';
-import { darken } from 'polished';
+
 import logo from '../../../assets/logo.png';
 
 export const Wrapper = styled.SafeAreaView`
-  flex: 0;
   background: #141419;
   flex-direction: row;
 `;
@@ -29,6 +28,7 @@ export const BasketContainer = styled.TouchableOpacity`
   align-items: flex-end;
   justify-content: flex-end;
 `;
+export const ButtonHome = styled.TouchableOpacity``;
 
 export const ItemCount = styled.Text`
   position: absolute;

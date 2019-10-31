@@ -3,28 +3,31 @@ import { darken } from 'polished';
 
 export const Container = styled.View`
   background: #191920;
-  padding-top: 48;
+  flex: 1;
+`;
+export const ViewArea = styled.View`
+  background: #191920;
 `;
 
 export const Product = styled.View`
   background: #fff;
-  border-radius: 4px;
   padding: 10px;
   margin: 15px;
+  border-radius: 4px;
   width: 220px;
 `;
 
 export const ImageProduct = styled.Image`
-  width: 200;
-  height: 200;
+  width: 200px;
+  height: 200px;
 `;
 
 export const TitleProduct = styled.Text`
-  font-size: 16;
+  font-size: 16px;
 `;
 export const PriceProduct = styled.Text`
   margin: 14px 0px;
-  font-size: 21;
+  font-size: 21px;
   font-weight: bold;
   margin-bottom: 14px;
 `;
